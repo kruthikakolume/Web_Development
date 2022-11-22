@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/icon.ico">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Kruthika Kolume</h1>
+        <div class="nav" id="myTopnav">
+            <a href="./index.html">Home</a>
+            <a href="./aboutme.html">About me</a>
+            <a href="./eduExp.html">Education and Experience</a>
+            <a href="./certificate.html">Certifications</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div style="height: 700px; margin-top: 120px;">
+        <div class="split left">
+            <h1 style="font-style:oblique;">Education</h1>
+                <div class="chip">
+                    <img src="./images/neu.png" alt="University" width="96" height="96">
+                    Northeastern University
+                  </div>
+              <h4>MS in Information Systems</h4>
+              <p>2022-2024</p>
+              <br><br>
+              <div class="chip">
+                <img src="./images/kle.jpeg" alt="University" width="96" height="96">
+                KLE Technological University
+              </div>
+          <h4>BE in Computer Science</h4>
+          <p>2017-2021</p>
+            </div>
+          
+          <div class="split right">
+            <h1 style="font-style:oblique;">Experience</h1>
+            <div class="chip">
+                <img src="./images/mbrdi.jpeg" alt="Company" width="96" height="96">
+                Mercedes-Benz Research and Development India
+              </div>
+          <h4>Consultant</h4>
+          <p>Mar'22-Jul'22</p>
+          <br>
+          <h4>Graduate Engineer Trainee</h4>
+          <p>Aug'21-Feb'22</p>
+          <br>
+          <h4>Intern</h4>
+          <p>Mar'21-Jul'21</p>
+          </div>
+    </div>
+    <footer>
+        <ul>
+            <li>Tel: (617)-906 1674</li>
+            <li>Address: Boston, MA</li>
+            <li>Mail to: <a href="mailto:kolume.krutika@gmail.com">kolume.krutika@gmail.com</a></li>
+        </ul>
+    </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav";
+          }
+        }
+    </script>
+</body>
+</html>

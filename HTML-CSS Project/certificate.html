@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/icon.ico">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Kruthika Kolume</h1>
+        <div class="nav" id="myTopnav">
+            <a href="./index.html">Home</a>
+            <a href="./aboutme.html">About me</a>
+            <a href="./eduExp.html">Education and Experience</a>
+            <a href="./certificate.html">Certifications</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div class="cert">
+        <h1 style="font-style:oblique;">Certificates</h1>
+        <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="./images/junos.jpeg">
+                <img src="./images/junos.jpeg" alt="Certificate" width="300" height="200">
+              </a>
+              <div class="desc">Received the Juniper Networks Associate Certificate (JNCIA-Junos) (Nov’20)</div>
+            </div>
+          </div>
+          
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="./images/coconet.jpeg">
+                <img src="./images/coconet.jpeg" alt="Certificate" width="300" height="200">
+              </a>
+              <div class="desc">Presented the paper ‘Performance Improvements in Quantization Aware Training and Appreciation of Low
+                Precision Computation in Deep Learning’ at the International Conference on Sixth International Symposium
+                on Signal Processing and Intelligent Recognition Systems, held at Vellore Institute of Technology, Chennai
+                (Oct’20)</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="./images/mlai.jpeg">
+                <img src="./images/mlai.jpeg" alt="Certificate" width="300" height="200">
+              </a>
+              <div class="desc">Attended a 8-day Internship program in Machine Learning and Artificial Intelligence, conducted by the
+                ExpertsHub at JSS Academy, Bengaluru (Jul’19)</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="./images/ethical.jpeg">
+                <img src="./images/ethical.jpeg" alt="Certificate" width="300" height="200">
+              </a>
+              <div class="desc">Attended a 2-day ‘Ethical Hacking’, conducted by the Pravega, held at Indian Institute of Science (IISc),
+                Bengaluru (Jan’20)</div>
+            </div>
+          </div>
+          
+          <div class="clearfix"></div>
+    </div>
+    <footer>
+        <ul>
+            <li>Tel: (617)-906 1674</li>
+            <li>Address: Boston, MA</li>
+            <li>Mail to: <a href="mailto:kolume.krutika@gmail.com">kolume.krutika@gmail.com</a></li>
+        </ul>
+    </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav";
+          }
+        }
+    </script>
+</body>
+</html>

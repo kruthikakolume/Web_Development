@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/icon.ico">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Kruthika Kolume</h1>
+        <div class="nav" id="myTopnav">
+            <a href="./index.html">Home</a>
+            <a href="./aboutme.html">About me</a>
+            <a href="./eduExp.html">Education and Experience</a>
+            <a href="./certificate.html">Certifications</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="image">
+            <img src="./images/Profile pic.jpeg" height="280px" width="300px">
+        </div>
+        <div class="intro">
+            <h2>Hey there!</h2>
+            <p>I am a graduate student pursuing Masters in Information Systems at Northeastern University in UI stream to gain expertise in front end and back end leading to a full stack developer. For the past 1.5 years, I have been a UI developer. I have strong skills in web development, particularly React and typescript. While I was at Mercedes-Benz Research and Development India, I spearheaded the UI team with technical as well as presentational skills. I am a self-motivated team player with good decision making and time management skills. By conceptualising the solutions for the problem statements, I have contributed in improved user experience and customer satisfaction of the interface.</p>
+        </div>
+    </div>
+    <div class="extra">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p></p>
+            <h2>Skills</h2>
+            <p>What am I good at?</p>
+          </div>
+          <div class="flip-card-back">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p></p>
+            <h2>Languages</h2>
+            <p>What all do I speak?</p>
+          </div>
+          <div class="flip-card-back">
+            <p>English</p>
+            <p>Kannada</p>
+            <p>Hindi</p>
+            <p>Telugu</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p></p>
+            <h2>Hobbies</h2>
+            <p>What I like doing?</p>
+          </div>
+          <div class="flip-card-back">
+            <p>Traveling</p>
+            <p>Music</p>
+            <p>Cooking</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <ul>
+            <li>Tel: (617)-906 1674</li>
+            <li>Address: Boston, MA</li>
+            <li>Mail to: <a href="mailto:kolume.krutika@gmail.com">kolume.krutika@gmail.com</a></li>
+        </ul>
+    </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav";
+          }
+        }
+    </script>
+</body>
+</html>
