@@ -1,0 +1,3 @@
+[submodule "foodzill"]
+	path = foodzill
+	url = https://github.com/kkruthika6/Web_Development.git
