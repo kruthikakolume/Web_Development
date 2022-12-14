@@ -1,3 +1,6 @@
 [submodule "foodzill"]
 	path = foodzill
 	url = https://github.com/kkruthika6/Web_Development.git
+[submodule "foodzilla"]
+	path = foodzilla
+	url = https://github.com/kkruthika6/foodzilla.git
